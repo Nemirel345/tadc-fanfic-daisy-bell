@@ -1,0 +1,122 @@
+#workskin .tadc-dialog {
+    font-size: 16;
+    margin: 0.75em;
+    margin-left: 2em;
+    padding: 0.2em;
+    padding-left: 1.5em;
+    padding-right: 1em;
+    /* border-radius: 0.5em 2em 2em 0.5em; */
+    border-radius: 1.25em;
+    border: 5px solid #222; 
+    width: fit-content;
+    max-width: 80%;
+    line-height: 1.5em;
+    font-family: "Segoe Script", "Lucida Handwriting", cursive, serif; /*"Bradley Hand", "Segoe Print", */
+    font-weight: bold;
+    position: relative;
+}
+
+#workskin .tadc-dialog strong, #workskin .tadc-dialog b {
+    font-weight: bolder;
+    text-shadow: 1px 1px currentcolor, -1px 1px currentcolor;
+}
+
+#workskin .tadc-dialog.tadc-pomni {
+    background-color: #E14C6C;
+}
+#workskin .tadc-dialog.tadc-jax {
+    background-color: #7A2FD0;
+}
+#workskin .tadc-dialog.tadc-ragatha {
+    background-color: #C9A6E0;
+}
+#workskin .tadc-dialog.tadc-zooble {
+    background-color: #2BCFCF;
+}
+#workskin .tadc-dialog.tadc-gangle {
+    background-color: #FF8DAA;
+}
+#workskin .tadc-dialog.tadc-kinger {
+    background-color: #E2B93B;
+}
+#workskin .tadc-dialog.tadc-caine {
+    background-color: #1E90FF;
+    font-family: Consolas, "Lucida Console", monospace, sans-serif;
+}
+#workskin .tadc-dialog.tadc-bubble {
+    background-color: #4FD1FF;
+    font-family: Consolas, "Lucida Console", monospace, sans-serif;
+}
+#workskin .tadc-dialog.tadc-daisy {
+    background-color: #E07BFF;
+    font-family: "Segoe Print", "Lucida Calligraphy", cursive, sans-serif;
+}
+
+#workskin .tadc-dialog::before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    left: -2em;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 3em; /*48px*/
+    height: 3em; /*48px*/
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#workskin .tadc-dialog.tadc-pomni::before {
+    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/e/e1/Pomni's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Pomni's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-jax::before {
+    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/a/ad/Jax's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Jax's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-ragatha::before {
+    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/6/62/Ragatha's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Ragatha's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-zooble::before {
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Zooble's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-gangle::before {
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Gangle's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-kinger::before {
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Kinger's_room_icon.png");
+}
+#workskin .tadc-dialog.tadc-caine::before {
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Caine_icon.png");
+}
+#workskin .tadc-dialog.tadc-bubble::before {
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/Bubble_icon.png");
+}
+/* #workskin .tadc-dialog.tadc-daisy::before {
+} */
+
+#workskin .tadc-dialog del {
+    display: inline-block;
+    width: 6em; /*96px;*/
+    color: transparent;
+    position: relative;
+    line-height: 1.5em;
+    text-align: center;
+}
+#workskin .tadc-dialog del::before {
+    content: "";
+    display: inline-block;
+    width: 6em; /*96px;*/
+    height: 4em; /*64px;*/
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    /* opacity: 0.5; */
+    
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/images/censor.png");
+    background-position: center;
+}
