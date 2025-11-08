@@ -1,4 +1,4 @@
-#workskin .tadc-dialog {
+#workskin [class^="tadc-dialog-"] {
     font-size: 16;
     margin: 0.75em;
     margin-left: 2em;
@@ -16,43 +16,43 @@
     position: relative;
 }
 
-#workskin .tadc-dialog strong, #workskin .tadc-dialog b {
+#workskin [class^="tadc-dialog-"] strong, #workskin [class^="tadc-dialog-"] b {
     font-weight: bolder;
     text-shadow: 1px 1px currentcolor, -1px 1px currentcolor;
 }
 
-#workskin .tadc-dialog.tadc-pomni {
+#workskin .tadc-dialog-pomni {
     background-color: #E14C6C;
 }
-#workskin .tadc-dialog.tadc-jax {
+#workskin .tadc-dialog-jax {
     background-color: #7A2FD0;
 }
-#workskin .tadc-dialog.tadc-ragatha {
+#workskin .tadc-dialog-ragatha {
     background-color: #C9A6E0;
 }
-#workskin .tadc-dialog.tadc-zooble {
+#workskin .tadc-dialog-zooble {
     background-color: #2BCFCF;
 }
-#workskin .tadc-dialog.tadc-gangle {
+#workskin .tadc-dialog-gangle {
     background-color: #FF8DAA;
 }
-#workskin .tadc-dialog.tadc-kinger {
+#workskin .tadc-dialog-kinger {
     background-color: #E2B93B;
 }
-#workskin .tadc-dialog.tadc-caine {
+#workskin .tadc-dialog-caine {
     background-color: #1E90FF;
     font-family: Consolas, "Lucida Console", monospace, sans-serif;
 }
-#workskin .tadc-dialog.tadc-bubble {
+#workskin .tadc-dialog-bubble {
     background-color: #4FD1FF;
     font-family: Consolas, "Lucida Console", monospace, sans-serif;
 }
-#workskin .tadc-dialog.tadc-daisy {
+#workskin .tadc-dialog-daisy {
     background-color: #E07BFF;
     font-family: "Segoe Print", "Lucida Calligraphy", cursive, sans-serif;
 }
 
-#workskin .tadc-dialog::before {
+#workskin [class^="tadc-dialog-"]::before {
     content: "";
     display: inline-block;
     position: absolute;
@@ -66,37 +66,37 @@
     background-position: center;
 }
 
-#workskin .tadc-dialog.tadc-pomni::before {
+#workskin .tadc-dialog-pomni::before {
     /* background-image: url("https://static.wikia.nocookie.net/tadc/images/e/e1/Pomni's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Pomni_icon.png");
 }
-#workskin .tadc-dialog.tadc-jax::before {
+#workskin .tadc-dialog-jax::before {
     /* background-image: url("https://static.wikia.nocookie.net/tadc/images/a/ad/Jax's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Jax_icon.png");
 }
-#workskin .tadc-dialog.tadc-ragatha::before {
+#workskin .tadc-dialog-ragatha::before {
     /* background-image: url("https://static.wikia.nocookie.net/tadc/images/6/62/Ragatha's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Ragatha_icon.png");
 }
-#workskin .tadc-dialog.tadc-zooble::before {
+#workskin .tadc-dialog-zooble::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Zooble_icon.png");
 }
-#workskin .tadc-dialog.tadc-gangle::before {
+#workskin .tadc-dialog-gangle::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Gangle_icon.png");
 }
-#workskin .tadc-dialog.tadc-kinger::before {
+#workskin .tadc-dialog-kinger::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Kinger_icon.png");
 }
-#workskin .tadc-dialog.tadc-caine::before {
+#workskin .tadc-dialog-caine::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Caine_icon.png");
 }
-#workskin .tadc-dialog.tadc-bubble::before {
+#workskin .tadc-dialog-bubble::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Bubble_icon.png");
 }
 /* #workskin .tadc-dialog.tadc-daisy::before {
 } */
 
-#workskin .tadc-dialog del {
+#workskin [class^="tadc-dialog-"] del {
     display: inline-block;
     width: 6em; /*96px;*/
     color: transparent;
@@ -104,7 +104,7 @@
     line-height: 1.5em;
     text-align: center;
 }
-#workskin .tadc-dialog del::before {
+#workskin [class^="tadc-dialog-"] del::before {
     content: "";
     display: inline-block;
     width: 6em; /*96px;*/
