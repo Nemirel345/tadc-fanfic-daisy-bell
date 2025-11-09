@@ -1,3 +1,62 @@
+#workskin .tadc-narration {
+    font-size: 16;
+    margin: 0.75em;
+    margin-left: 2em;
+    padding: 0.2em;
+    padding-right: 1em;
+    /* border-radius: 0.5em 2em 2em 0.5em; */
+    border-radius: 0;
+    /* border: 5px solid #222;  */
+    width: fit-content;
+    max-width: 80%;
+    line-height: 1.5em;
+    font-family: Georgia, serif;
+    font-weight: bold;
+    position: relative;
+    /* color: #EA8C55; */
+    /* color: #666; */
+    /* color: #74544E; */
+    /* color: #7E3911; */
+    /* color: #A24916; */
+    /* text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black; */
+}
+#workskin .tadc-narration > .pomni {
+    color: #E14C6C;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .jax {
+    color: #7A2FD0;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .ragatha {
+    color: #C9A6E0;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .zooble {
+    color: #2BCFCF;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .gangle {
+    color: #FF8DAA;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .kinger {
+    color: #E2B93B;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .caine {
+    color: #1E90FF;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .bubble {
+    color: #4FD1FF;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+#workskin .tadc-narration > .daisy {
+    color: #E07BFF;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+
 #workskin [class^="tadc-dialog-"] {
     font-size: 16;
     margin: 0.75em;
@@ -14,11 +73,33 @@
     font-family: "Segoe Script", "Lucida Handwriting", cursive, serif; /*"Bradley Hand", "Segoe Print", */
     font-weight: bold;
     position: relative;
+    color: #EEE;
+    text-shadow: 1px 0px black, 0px 1px black, -1px 0px black, 0px -1px black;
+}
+
+#workskin .tadc-narration strong, #workskin .tadc-narration b {
+    font-weight: bolder;
+    letter-spacing: 2px;
+    font-size: 17;
+    text-shadow: 1px 0px currentcolor, 0px 1px currentcolor, -1px 0px currentcolor, 0px -1px currentcolor;
+}
+#workskin .tadc-narration em, #workskin .tadc-narration i {
+    /* letter-spacing: 1px; */
+    display: inline-block;
+    transform: skew(-25deg)
 }
 
 #workskin [class^="tadc-dialog-"] strong, #workskin [class^="tadc-dialog-"] b {
     font-weight: bolder;
-    text-shadow: 1px 1px currentcolor, -1px 1px currentcolor;
+    letter-spacing: 2px;
+    font-size: 17;
+    /* text-shadow: 0px 1px currentcolor, 1px 1px currentcolor, 1px 0px currentcolor, 1px -1px currentcolor, 0px -1px currentcolor, -1px -1px currentcolor, -1px 0px currentcolor, -1px 1px currentcolor; */
+    text-shadow: 1px 0px currentcolor, 0px 1px currentcolor, -1px 0px currentcolor, 0px -1px currentcolor, 2px 0px black, 1px 1px black, 0px 2px black, -1px 1px black, -2px 0px black, -1px -1px black, 0px -2px black, 1px -1px black;
+}
+#workskin [class^="tadc-dialog-"] em, #workskin [class^="tadc-dialog-"] i {
+    /* letter-spacing: 1px; */
+    display: inline-block;
+    transform: skew(-25deg)
 }
 
 #workskin .tadc-dialog-pomni {
@@ -26,6 +107,7 @@
 }
 #workskin .tadc-dialog-jax {
     background-color: #7A2FD0;
+    /* background-color: #8A48D5; */
 }
 #workskin .tadc-dialog-ragatha {
     background-color: #C9A6E0;
@@ -59,23 +141,20 @@
     left: -2em;
     top: 50%;
     transform: translateY(-50%);
-    width: 3em; /*48px*/
-    height: 3em; /*48px*/
+    width: 3em;
+    height: 3em;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
 }
 
 #workskin .tadc-dialog-pomni::before {
-    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/e/e1/Pomni's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Pomni_icon.png");
 }
 #workskin .tadc-dialog-jax::before {
-    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/a/ad/Jax's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Jax_icon.png");
 }
 #workskin .tadc-dialog-ragatha::before {
-    /* background-image: url("https://static.wikia.nocookie.net/tadc/images/6/62/Ragatha's_room_icon.png/revision/latest/scale-to-width-down/512?type=.png"); */
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Ragatha_icon.png");
 }
 #workskin .tadc-dialog-zooble::before {
@@ -93,12 +172,13 @@
 #workskin .tadc-dialog-bubble::before {
     background-image: url("https://raw.githubusercontent.com/Nemirel345/tadc-fanfic-daisy-bell/refs/heads/main/workskin/images/Bubble_icon.png");
 }
-/* #workskin .tadc-dialog.tadc-daisy::before {
-} */
+#workskin .tadc-dialog-daisy::before {
+    background-image: url("images/Daisy_icon.png");
+}
 
 #workskin [class^="tadc-dialog-"] del {
     display: inline-block;
-    width: 6em; /*96px;*/
+    width: 6em;
     color: transparent;
     position: relative;
     line-height: 1.5em;
@@ -107,13 +187,12 @@
 #workskin [class^="tadc-dialog-"] del::before {
     content: "";
     display: inline-block;
-    width: 6em; /*96px;*/
-    height: 4em; /*64px;*/
+    width: 6em;
+    height: 4em;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 0;
-    /* opacity: 0.5; */
     
     background-size: contain;
     background-repeat: no-repeat;
